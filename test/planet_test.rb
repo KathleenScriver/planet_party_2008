@@ -13,4 +13,10 @@ class PlanetClass < MiniTest::Test
 
     assert_equal "Earth", planet.name
   end
+
+  def test_it_can_spin
+    planet = Planet.new("Earth")
+
+    assert planet.spin?
+  end
 end

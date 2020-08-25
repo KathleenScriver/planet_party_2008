@@ -3,4 +3,8 @@ class Planet
   def initialize(name)
     @name = name
   end
+
+  def spin?
+    true
+  end
 end
