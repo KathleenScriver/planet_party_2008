@@ -7,4 +7,10 @@ class PlanetClass < MiniTest::Test
     planet = Planet.new
     assert_instance_of Planet, planet
   end
-end 
+
+  def test_it_can_spin
+    planet = Planet.new
+
+    assert planet.spin?
+  end
+end
