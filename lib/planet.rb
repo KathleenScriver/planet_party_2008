@@ -1,3 +1,5 @@
 class Planet
-
-end 
+  def spin?
+    true
+  end
+end
